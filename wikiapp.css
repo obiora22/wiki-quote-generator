@@ -1,0 +1,43 @@
+.body{
+  background-color: orange;
+  font-family: monospace;
+}
+
+.header{
+  margin: 90px auto
+}
+#search{
+  width: 45%;
+  height: 100px;
+  font-size: 2em;
+  margin-bottom: 100px
+}
+#search:focus{
+  border: 2px red solid;
+}
+.border{
+  border: 2px #fff solid;
+  background: none;
+  display: block;
+  width: 20%;
+  height: 5%;
+  margin: 30px auto;
+  font-size: 1.1em;
+  color: #fff;
+  padding: 15px;
+}
+.random_wiki_link:hover{
+  text-decoration: none;
+  background: #000;
+  color: orange;
+}
+.wiki-extract li{
+  list-style: none;
+  border-left: 5px #fff solid;
+  margin-top: 20px;
+  height: 80px;
+  background-color: steelblue;
+  text-align: left;
+  padding: 10px;
+  font-size: 1.3em;
+}
